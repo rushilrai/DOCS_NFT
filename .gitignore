@@ -1,0 +1,10 @@
+# node modules
+node-api/node_modules/
+node-api/package-lock.json
+
+# environment vars
+.env
+
+# vscode
+.vscode/
+docs-app/apk/Docs_V1.apk
