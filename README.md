@@ -14,10 +14,6 @@ to ensure legitimacy of Prescriptions.
 <br>
 <a href="https://github.com/rushilrai">Rushil Rai</a>
 
-<b>Demo Video:</b>
-<br>
-https://www.youtube.com/watch?v=cj4fOWwAZg4
-
 <b>Screenshots:</b>
 
 <img src="Screenshots/Samsung Galaxy S20+ Screenshot 0.png" width=400> <img src="Screenshots/Samsung Galaxy S20+ Screenshot 1.png" width=400> 
