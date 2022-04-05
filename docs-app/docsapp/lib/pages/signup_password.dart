@@ -434,7 +434,7 @@ void _signupPatient(String id, String password, String name, String contact,
     String address, BuildContext context) async {
   showLoadingDialogue(context);
   final http.Response signupResponse = await http.post(
-    Uri.parse('https://bcic-docs-api.azurewebsites.net/user/signup/patient'),
+    Uri.parse('http://10.0.2.2:8080/user/signup/patient'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },
@@ -529,7 +529,7 @@ void _signupDoctor(
     BuildContext context) async {
   showLoadingDialogue(context);
   final http.Response signupResponse = await http.post(
-    Uri.parse('https://bcic-docs-api.azurewebsites.net/user/signup/doctor'),
+    Uri.parse('http://10.0.2.2:8080/user/signup/doctor'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },

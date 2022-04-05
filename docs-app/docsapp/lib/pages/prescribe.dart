@@ -779,7 +779,7 @@ void newPrescription(context, userid, docid, List<Meds> meds, password) async {
   showLoadingDialogue(context);
   // ignore: unused_local_variable
   http.Response prescNewResponse = await http.post(
-    Uri.parse('https://bcic-docs-api.azurewebsites.net/prescription/new'),
+    Uri.parse('http://10.0.2.2:8080/prescription/new'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },

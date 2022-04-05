@@ -26,8 +26,8 @@ Future<bool> getAppointments() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   final role = prefs.getString('role');
   final id = prefs.getString('userid');
-  http.Response appointmentsResponse = await http.get(Uri.parse(
-      'https://bcic-docs-api.azurewebsites.net/appointment/all/$role/$id'));
+  http.Response appointmentsResponse = await http
+      .get(Uri.parse('http://10.0.2.2:8080/appointment/all/$role/$id'));
   String appointmentsResponseJson = appointmentsResponse.body;
   if (appointmentsResponse.statusCode == 200) {
     final tempAppointmentsList = [];

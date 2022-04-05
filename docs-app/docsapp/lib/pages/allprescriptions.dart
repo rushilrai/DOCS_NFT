@@ -381,7 +381,7 @@ void newOrder(context, userid, docid, List<Meds> meds, password, prescriptionid,
     address, contact) async {
   showLoadingDialogue(context);
   http.Response orderNewResponse = await http.post(
-    Uri.parse('https://bcic-docs-api.azurewebsites.net/pharmacy/request'),
+    Uri.parse('http://10.0.2.2:8080/pharmacy/request'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },

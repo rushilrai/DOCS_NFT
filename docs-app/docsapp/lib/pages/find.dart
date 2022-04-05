@@ -244,7 +244,7 @@ class _FindPageState extends State<FindPage> {
                                                                   findResponse =
                                                                   await http.get(
                                                                       Uri.parse(
-                                                                          'https://bcic-docs-api.azurewebsites.net/appointment/search/$spezSelected'));
+                                                                          'http://10.0.2.2:8080/appointment/search/$spezSelected'));
                                                               String
                                                                   findResponseJson =
                                                                   findResponse

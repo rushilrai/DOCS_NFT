@@ -45,8 +45,8 @@ Future<String> getPrescriptions() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   final id = prefs.getString('userid');
   final role = prefs.getString('role');
-  http.Response prescriptionResponse = await http.get(Uri.parse(
-      'https://bcic-docs-api.azurewebsites.net/prescription/all/$role/$id'));
+  http.Response prescriptionResponse = await http
+      .get(Uri.parse('http://10.0.2.2:8080/prescription/all/$role/$id'));
   String prescriptionResponseJson = prescriptionResponse.body;
   prescriptionsList.clear();
   for (var i = 0;

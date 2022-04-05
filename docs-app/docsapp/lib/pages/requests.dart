@@ -469,8 +469,7 @@ Future<bool> acceptAppointment(BuildContext context, String appId) async {
   final id = prefs.getString('userid');
   final password = prefs.getString('password');
   http.Response acceptAppointmentResponse = await http.post(
-    Uri.parse(
-        'https://bcic-docs-api.azurewebsites.net/appointment/approve/$appId'),
+    Uri.parse('http://10.0.2.2:8080/appointment/approve/$appId'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },

@@ -30,8 +30,8 @@ Future<String> getOrders() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   final id = prefs.getString('userid');
   final password = prefs.getString('password');
-  http.Response ordersResponse = await http.get(
-      Uri.parse('https://bcic-docs-api.azurewebsites.net/pharmacy/all/$id'));
+  http.Response ordersResponse =
+      await http.get(Uri.parse('http://10.0.2.2:8080/pharmacy/all/$id'));
   String ordersResponseJson = ordersResponse.body;
   ordersList.clear();
   for (var i = 0; i < jsonDecode(ordersResponseJson)['result'].length; i++) {

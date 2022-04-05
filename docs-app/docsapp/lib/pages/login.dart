@@ -619,7 +619,7 @@ void _login(
     String role, String email, String password, BuildContext context) async {
   showLoadingDialogue(context);
   final http.Response loginResponse = await http.post(
-    Uri.parse('https://bcic-docs-api.azurewebsites.net/user/login/$role'),
+    Uri.parse('http://10.0.2.2:8080/user/login/$role'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },

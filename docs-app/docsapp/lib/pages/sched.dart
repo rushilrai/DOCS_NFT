@@ -669,7 +669,7 @@ void _newAppointment(
     BuildContext context) async {
   //showLoadingDialogue(context);
   final http.Response newAppointmentResponse = await http.post(
-    Uri.parse('https://bcic-docs-api.azurewebsites.net/appointment/new'),
+    Uri.parse('http://10.0.2.2:8080/appointment/new'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },
