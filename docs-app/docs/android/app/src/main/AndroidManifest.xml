@@ -17,7 +17,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         tools:replace="android:label" 
-        android:name="io.flutter.app.FlutterApplication"
+        android:name="${applicationName}"
         android:label="docs"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -43,6 +43,10 @@
             <meta-data
               android:name="io.flutter.embedding.android.SplashScreenDrawable"
               android:resource="@drawable/launch_background"
+              />
+              <meta-data
+              android:name="flutterEmbedding"
+              android:value="2" 
               />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
