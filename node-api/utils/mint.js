@@ -13,12 +13,6 @@ const abi = require('../artifacts/contracts/Prescriptions.sol/DocsPrescription.j
 async function mintNFT(tokenURI) {
     const contract = new web3.eth.Contract(abi.abi, testContract);
 
-    console.log('');
-    console.log('Input:')
-    console.log('Recipient Address:', testAccount);
-    console.log('Contract Address:', testContract);
-    console.log('Transaction Value', '0.05 ETH');
-
     const tx = {
         from: testAccount,
         to: testContract,
@@ -33,21 +27,15 @@ async function mintNFT(tokenURI) {
         tx,
         testAccountPriv
     );
-    signPromise
-        .then((signedTx) => {
-            web3.eth.sendSignedTransaction(
+
+    return signPromise
+        .then(async (signedTx) => {
+            let _dataJson = {};
+            await web3.eth.sendSignedTransaction(
                 signedTx.rawTransaction,
                 async function (err, hash) {
                     if (!err) {
-                        console.log('');
-                        console.log('');
-                        console.log('Output:')
-                        console.log(
-                            "Transaction Hash: ",
-                            hash
-                        );
-                        let receipt = await web3.eth.getTransaction(hash, (err, txResult) => {
-                            console.log(txResult);
+                        await web3.eth.getTransaction(hash, (err, txResult) => {
                             let found = [],
                                 rxp = /{([^}]+)}/g,
                                 str = web3.utils.hexToAscii(txResult.input),
@@ -57,44 +45,56 @@ async function mintNFT(tokenURI) {
                                 found.push(curMatch[1]);
                             }
                             let dataJson = JSON.parse(`{${found[0]}}`)
-                            console.log('Prescription URL:', dataJson.url);
-                            console.log('Hash:', dataJson.hash);
-                            console.log('');
-                            return {
-                                url: dataJson.url,
-                                hash: dataJson.hash,
-                                success: true
-                            }
+                            _dataJson = dataJson;
+                            _dataJson['txnHash'] = hash;
                         });
+
                     } else {
                         console.log(
                             "Something went wrong when submitting our transaction:",
                             err
                         );
-                        return 0;
+                        return {
+                            success: false
+                        }
                     }
                 }
             );
+            return {
+                url: _dataJson.url,
+                hash: _dataJson.hash,
+                txnHash: _dataJson.txnHash,
+                success: true
+            };
         })
         .catch((err) => {
             console.log(" Promise failed:", err);
+            return {
+                success: false,
+                err: err
+            }
         });
 }
 
-module.exports = {mintNFT};
+async function fetchTxn(hash) {
+    let _dataJson = {};
+    await web3.eth.getTransaction(hash, (err, txResult) => {
+        let found = [],
+            rxp = /{([^}]+)}/g,
+            str = web3.utils.hexToAscii(txResult.input),
+            curMatch;
 
+        while (curMatch = rxp.exec(str)) {
+            found.push(curMatch[1]);
+        }
+        let dataJson = JSON.parse(`{${found[0]}}`)
+        _dataJson = dataJson;
+        _dataJson['txnHash'] = hash;
+        _dataJson['txn'] = txResult;
+    });
 
-// contract.methods.payToMint(testAccount, 'Paracetamol 500').send(
-//     {
-//         from: testAccount,
-//         to: testContract,
-//         value: web3.utils.toWei('0.05', 'ether'),
-//     }, (err, result) => {
-//         console.log(result);
-//     }
-// );
+    return _dataJson;
 
-// web3.eth.getBalance(testAccount, (err, wei) => {
-//     balance = web3.utils.fromWei(wei, 'ether');
-//     console.log(balance);
-// });
+}
+
+module.exports = { mintNFT, fetchTxn };

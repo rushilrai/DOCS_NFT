@@ -2,9 +2,8 @@ var pdf = require("pdf-creator-node");
 var fs = require("fs");
 
 class Med {
-    constructor(name, ailment, quantity, comments) {
+    constructor(name, quantity, comments) {
         this.name = name;
-        this.ailment = ailment;
         this.quantity = quantity;
         this.comments = comments;
     }
@@ -45,14 +44,20 @@ async function generatePDF(meds, docDetails, patientDetails) {
         type: "",
     };
 
-    pdf
+    return pdf
         .create(document, options)
         .then((res) => {
-            return res;
+            return {
+                success: true,
+                res
+            };
         })
         .catch((error) => {
             console.log(error);
-            return 0;
+            return {
+                success: false,
+                error
+            };
         });
 }
 

@@ -45,9 +45,9 @@ class Prescription {
     async prescribe (userLogin) {
 
         // verify doctor's login
-        return Doctor.verifyUser(userLogin, Doctor.DoctorModel).then((result) => {
+        // return Doctor.verifyUser(userLogin, Doctor.DoctorModel).then((result) => {
 
-            if (result.success) {
+        //     if (result.success) {
                 return this.prescription        // if doctor is logged in
                 .save()                         // save the prescription
                 .then((res) => {
@@ -61,15 +61,15 @@ class Prescription {
                         success: false,
                         err: err
                     }
-                })
-            } else {                            // if doctor isn't logged in
-                return {                        // don't save the prescription
-                    success: false,                     
-                    msg: "Doctor not logged in."
-                } 
-            }
+                });
+        //     } else {                            // if doctor isn't logged in
+        //         return {                        // don't save the prescription
+        //             success: false,                     
+        //             msg: "Doctor not logged in."
+        //         } 
+        //     }
 
-        });
+        // });
     
     }
 
@@ -123,8 +123,8 @@ class Prescription {
             }
 
             return {
-                success: false,
-                txnHash: res
+                success: true,
+                res: res
             }
         
         })
