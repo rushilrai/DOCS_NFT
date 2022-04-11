@@ -1,7 +1,7 @@
 var pdf = require("pdf-creator-node");
 var fs = require("fs");
 
-export class Med {
+class Med {
     constructor(name, ailment, quantity, comments) {
         this.name = name;
         this.ailment = ailment;
@@ -10,7 +10,7 @@ export class Med {
     }
 }
 
-export class DocDetails {
+class DocDetails {
     constructor(doctorName, doctorQual, doctorSpec) {
         this.doctorName = doctorName;
         this.doctorQual = doctorQual;
@@ -18,14 +18,14 @@ export class DocDetails {
     }
 }
 
-export class PatientDetails {
+class PatientDetails {
     constructor(patientName, patientContact) {
         this.patientName = patientName;
         this.patientContact = patientContact;
     }
 }
 
-export async function generatePDF(meds, docDetails, patientDetails) {
+async function generatePDF(meds, docDetails, patientDetails) {
     var html = fs.readFileSync("prescription_template.html", "utf8");
 
     var options = {
@@ -55,6 +55,8 @@ export async function generatePDF(meds, docDetails, patientDetails) {
             return 0;
         });
 }
+
+module.exports = { Med, DocDetails, PatientDetails, generatePDF };
 
 // var meds = [
 //     {

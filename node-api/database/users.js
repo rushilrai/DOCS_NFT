@@ -26,44 +26,44 @@ class User {
         address: {              // address
             type: Object,
             required: true
-        }
+        },
     }));
 
     // init user model with data
-    constructor (data) {
-        data['password'] = bcrypt.hashSync(data['password'], 10); 
+    constructor(data) {
+        data['password'] = bcrypt.hashSync(data['password'], 10);
         this.user = new User.UserModel(data);
     }
 
     // save user to database
-    async saveUser () {
-        return this.user    
-        .save()                         // save user to db         
-        .then((res) => { 
-            return {                    // successfully saved
-                success: true,
-                msg: `Username: ${this.user.toJSON()['_id']} saved to DB`
-            };
-        })
-        .catch((err) => { 
-            if (err.name == "MongoError" && err.code == 11000) {
-                return {                // username exists in db
-                    success: false,
-                    msg: `Username already exists.`
+    async saveUser() {
+        return this.user
+            .save()                         // save user to db         
+            .then((res) => {
+                return {                    // successfully saved
+                    success: true,
+                    msg: `Username: ${this.user.toJSON()['_id']} saved to DB`
                 };
-            } else {
-                console.log(err);
-                return {                // other error while saving
-                    success: false,
-                    error: err
-                };
-            }
-        });
+            })
+            .catch((err) => {
+                if (err.name == "MongoError" && err.code == 11000) {
+                    return {                // username exists in db
+                        success: false,
+                        msg: `Username already exists.`
+                    };
+                } else {
+                    console.log(err);
+                    return {                // other error while saving
+                        success: false,
+                        error: err
+                    };
+                }
+            });
     }
 
 
     // verify user on login
-    static async verifyUser (userLogin, model) {
+    static async verifyUser(userLogin, model) {
         return model.findById(userLogin['_id']).then((res) => {
 
             if (!res) {
@@ -72,7 +72,7 @@ class User {
                     msg: `User ${userLogin['_id']} not found`
                 }
             }
-            
+
             var res_json = res.toJSON();
 
             if (bcrypt.compareSync(userLogin['password'], res_json['password'])) {
@@ -87,7 +87,7 @@ class User {
                     msg: `User ${userLogin['_id']} wrong password!`
                 }
             }
- 
+
         });
     }
 
