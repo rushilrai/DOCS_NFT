@@ -36,5 +36,18 @@ router.get('/all/:role/:id', (req, res, next) =>{
 
 });
 
+// look up prescription
+router.get("/lookup", (req, res, next) => {
+    Prescription.verifyPrescription(req.body)
+    .then((result) => {
+        res.status(
+            result.success ? 200 : 400
+        ).send(result);
+    })
+    .catch((err) => {
+        res.status(500).send(err);
+    });
+});
+
 // export router
 module.exports = router;

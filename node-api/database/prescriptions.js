@@ -24,7 +24,15 @@ class Prescription {
             name: String,
             quantity: String,
             comment: String
-        }]
+        }],
+        fileHash: {
+            type: String,
+            required: true
+        },
+        txnHash: {
+            type: String,
+            required: true
+        }
     }));
 
     // new prescription object
@@ -99,11 +107,11 @@ class Prescription {
     static async verifyPrescription (prescriptionFromOrder) {
 
         // take _id from prescriptionFromOrder
-        var prescriptionFromOrder_id = prescriptionFromOrder['_id'];
+        var prescriptionFromOrder_id = prescriptionFromOrder['fileHash'];
 
         // get prescription from db using prescriptionFromOrder_id
         return Prescription.PrescriptionModel
-        .findById(prescriptionFromOrder_id)
+        .find({ fileHash: prescriptionFromOrder_id })
         .then((res) => {
 
             // check if prescription exists in DB
@@ -114,25 +122,11 @@ class Prescription {
                 }
             }
 
-            // hash prescription from order
-            var hashFromOrder = {
-                prescription: bcrypt.hashSync(JSON.stringify(prescriptionFromOrder), 10),
-                meds: bcrypt.hashSync(JSON.stringify(prescriptionFromOrder['meds']), 10)
+            return {
+                success: false,
+                txnHash: res
             }
-
-            // compare hashes with prescription from db
-            if (bcrypt.compareSync(JSON.stringify(res), hashFromOrder['prescription']) && bcrypt.compareSync(JSON.stringify(res['meds']), hashFromOrder['meds'])) {
-                return {
-                    success: true,
-                    msg: "Prescription verified"
-                }
-            } else {
-                return {
-                    success: false,
-                    msg: "Prescription compromised"
-                }
-            }
-         
+        
         })
         .catch((err) => {
 
