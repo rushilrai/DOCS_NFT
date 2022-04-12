@@ -108,6 +108,7 @@ class Prescription {
 
         // take _id from prescriptionFromOrder
         var prescriptionFromOrder_id = prescriptionFromOrder['fileHash'];
+        console.log(prescriptionFromOrder_id);
 
         // get prescription from db using prescriptionFromOrder_id
         return Prescription.PrescriptionModel

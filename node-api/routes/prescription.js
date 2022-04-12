@@ -7,6 +7,8 @@ const { Bucket } = require('../utils/bucket.js');
 const GeneratePdf = require('../utils/generatePDF.js');
 const { mintNFT, fetchTxn } = require('../utils/mint.js');
 const { uploadFile } = require('../utils/uploadFile.js');
+const hashFiles = require('hash-files');
+
 
 // router init
 const router = express.Router();
@@ -53,7 +55,7 @@ router.post('/new', async (req, res, next) => {
     const fs = require('fs');
 
     const fileBuffer = fs.readFileSync("./prescriptions/output.pdf");
-    const hashSum = crypto.createHash('sha256');
+    let hashSum = crypto.createHash('sha256');
     hashSum.update(fileBuffer);
 
     const hex = hashSum.digest('hex');
@@ -98,13 +100,22 @@ router.get('/all/:role/:id', (req, res, next) => {
 });
 
 // look up prescription
-router.get("/lookup", (req, res, next) => {
+router.post("/lookup", (req, res, next) => {
+    console.log(req.body);
     Prescription.verifyPrescription(req.body)
         .then(async (result) => {
-            console.log('lookup|txn --> ', (await fetchTxn(result['res'][0]['txnHash'])));
+            console.log(result['res']);
+            if (result['res'].length == 0) {
+                console.log('no res');
+                res.status(500).send(err);
+            }
+
+            console.log('yes res');
+            let txn = await fetchTxn(result['res'][0]['txnHash']);
+            console.log(txn);
             res.status(
                 result.success ? 200 : 400
-            ).send(result);
+            ).send(txn);
         })
         .catch((err) => {
             res.status(500).send(err);
