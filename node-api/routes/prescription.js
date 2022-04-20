@@ -7,17 +7,24 @@ const { Bucket } = require('../utils/bucket.js');
 const GeneratePdf = require('../utils/generatePDF.js');
 const { mintNFT, fetchTxn } = require('../utils/mint.js');
 const { uploadFile } = require('../utils/uploadFile.js');
-const hashFiles = require('hash-files');
-
+const crypto = require('crypto');
+const fs = require('fs');
 
 // router init
 const router = express.Router();
 
-// creating and saving the patients appointment
+// creating and saving the patients prescription
 router.post('/new', async (req, res, next) => {
-
-    let doctor = (await Doctor.checkIfExists(req.body.prescription.doc_id, Doctor.DoctorModel))['res'];
-    let user = (await User.checkIfExists(req.body.prescription.user_id, User.UserModel))['res'];
+    console.log(req.body);
+    let doctor, user;
+    let preName = req.body['name'] + '.pdf';
+    if (req.query['test']) {
+        doctor = req.body['prescription']['doctor'];
+        user = req.body['prescription']['patient'];
+    } else {
+        doctor = (await Doctor.checkIfExists(req.body.prescription.doc_id, Doctor.DoctorModel))['res'];
+        user = (await User.checkIfExists(req.body.prescription.user_id, User.UserModel))['res'];
+    }
 
     let docDetails = new GeneratePdf.DocDetails(
         doctor.name,
@@ -28,16 +35,12 @@ router.post('/new', async (req, res, next) => {
         user.name,
         user.contact_no
     )
-    try {
-
-    } catch (error) {
-
-    }
 
     let resGeneratePdf = await GeneratePdf.generatePDF(
         req.body.prescription.meds,
         docDetails,
-        patientDetails
+        patientDetails,
+        preName
     );
 
     if (!resGeneratePdf.success) {
@@ -45,16 +48,13 @@ router.post('/new', async (req, res, next) => {
     }
 
     let genId = await Bucket.generateRandomID();
-    let resUpload = await uploadFile(genId, "./prescriptions/output.pdf");
+    let resUpload = await uploadFile(genId, "./prescriptions/" + preName);
 
     if (!resUpload.success) {
         res.status(500).send(resUpload);
     }
 
-    const crypto = require('crypto');
-    const fs = require('fs');
-
-    const fileBuffer = fs.readFileSync("./prescriptions/output.pdf");
+    const fileBuffer = fs.readFileSync("./prescriptions/" + preName);
     let hashSum = crypto.createHash('sha256');
     hashSum.update(fileBuffer);
 
@@ -64,6 +64,7 @@ router.post('/new', async (req, res, next) => {
         "hash": hex,
         "url": resUpload.url
     }))
+
     if (!resMint.success) {
         res.status(500).send(resMint);
     }
@@ -84,7 +85,7 @@ router.post('/new', async (req, res, next) => {
 
 });
 
-// fetching all appointments
+// fetching all prescriptions
 router.get('/all/:role/:id', (req, res, next) => {
 
     Prescription.allPrescriptions(req.params.role, req.params.id)

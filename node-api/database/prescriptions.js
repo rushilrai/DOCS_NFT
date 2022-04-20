@@ -14,16 +14,16 @@ class Prescription {
         },
         user_id: {
             type: String,
-            required: true
+            required: false
         },
         doc_id: {
             type: String,
-            required: true
+            required: false
         },
         meds: [{
             name: String,
             quantity: String,
-            comment: String
+            comments: String
         }],
         fileHash: {
             type: String,

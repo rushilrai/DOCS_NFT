@@ -11,3 +11,4 @@ docs-app/apk/Docs_V1.apk
 
 # macos
 .DS_Store
+*.pdf

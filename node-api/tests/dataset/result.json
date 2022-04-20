@@ -1,0 +1,4127 @@
+[
+    {
+        "patient": {
+            "name": "Joyce Hong",
+            "contact_no": 9289979006
+        },
+        "doctor": {
+            "name": "Dr. Andrea Walker",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "ivermectin",
+                "quantity": 2,
+                "comments": "Cutaneous Larva Migrans"
+            },
+            {
+                "name": "albendazole",
+                "quantity": 2,
+                "comments": "Cutaneous Larva Migrans"
+            },
+            {
+                "name": "ivermectin",
+                "quantity": 2,
+                "comments": "Cutaneous Larva Migrans"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Lois Jamison",
+            "contact_no": 9353106221
+        },
+        "doctor": {
+            "name": "Dr. Karen Napier",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 2,
+                "comments": "Traveler's Diarrhea"
+            },
+            {
+                "name": "loperamide",
+                "quantity": 3,
+                "comments": "Traveler's Diarrhea"
+            },
+            {
+                "name": "rifaximin",
+                "quantity": 1,
+                "comments": "Traveler's Diarrhea"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Karen Allen",
+            "contact_no": 9854957596
+        },
+        "doctor": {
+            "name": "Dr. Debra Hebrank",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 3,
+                "comments": "Bladder Infection"
+            },
+            {
+                "name": "nitrofurantoin",
+                "quantity": 1,
+                "comments": "Bladder Infection"
+            },
+            {
+                "name": "cephalexin",
+                "quantity": 2,
+                "comments": "Bladder Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Joann Jefferson",
+            "contact_no": 9916859004
+        },
+        "doctor": {
+            "name": "Dr. James Vincent",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "ribavirin",
+                "quantity": 3,
+                "comments": "Hepatitis C"
+            },
+            {
+                "name": "ledipasvir / sofosbuvir",
+                "quantity": 2,
+                "comments": "Hepatitis C"
+            },
+            {
+                "name": "sofosbuvir",
+                "quantity": 1,
+                "comments": "Hepatitis C"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Len Laskey",
+            "contact_no": 9959688178
+        },
+        "doctor": {
+            "name": "Dr. Domingo Hughes",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "tamsulosin",
+                "quantity": 1,
+                "comments": "Urinary Tract Stones"
+            },
+            {
+                "name": "allopurinol",
+                "quantity": 1,
+                "comments": "Urinary Tract Stones"
+            },
+            {
+                "name": "magnesium oxide",
+                "quantity": 3,
+                "comments": "Urinary Tract Stones"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Maurice Beach",
+            "contact_no": 9309370004
+        },
+        "doctor": {
+            "name": "Dr. Judy Clemente",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "cisplatin",
+                "quantity": 1,
+                "comments": "Cervical Cancer"
+            },
+            {
+                "name": "carboplatin",
+                "quantity": 1,
+                "comments": "Cervical Cancer"
+            },
+            {
+                "name": "methotrexate",
+                "quantity": 1,
+                "comments": "Cervical Cancer"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Sabrina Okeeffe",
+            "contact_no": 9034450839
+        },
+        "doctor": {
+            "name": "Dr. Frederick Waddell",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "atorvastatin",
+                "quantity": 2,
+                "comments": "Prevention of Cardiovascular Disease"
+            },
+            {
+                "name": "rosuvastatin",
+                "quantity": 1,
+                "comments": "Prevention of Cardiovascular Disease"
+            },
+            {
+                "name": "simvastatin",
+                "quantity": 3,
+                "comments": "Prevention of Cardiovascular Disease"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Sandra Taylor",
+            "contact_no": 9660672649
+        },
+        "doctor": {
+            "name": "Dr. Eunice Roberts",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "ibuprofen",
+                "quantity": 1,
+                "comments": "Aseptic Necrosis"
+            },
+            {
+                "name": "alendronate",
+                "quantity": 3,
+                "comments": "Aseptic Necrosis"
+            },
+            {
+                "name": "diclofenac",
+                "quantity": 2,
+                "comments": "Aseptic Necrosis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Patricia Doyle",
+            "contact_no": 9597261613
+        },
+        "doctor": {
+            "name": "Dr. Jon Wiggins",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "albuterol",
+                "quantity": 3,
+                "comments": "COPD, Maintenance"
+            },
+            {
+                "name": "albuterol / ipratropium",
+                "quantity": 2,
+                "comments": "COPD, Maintenance"
+            },
+            {
+                "name": "ipratropium",
+                "quantity": 3,
+                "comments": "COPD, Maintenance"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Evelyn Moroni",
+            "contact_no": 9930608182
+        },
+        "doctor": {
+            "name": "Dr. Travis Marler",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "ketoconazole",
+                "quantity": 1,
+                "comments": "Dandruff"
+            },
+            {
+                "name": "pyrithione zinc",
+                "quantity": 1,
+                "comments": "Dandruff"
+            },
+            {
+                "name": "salicylic acid / sulfur",
+                "quantity": 3,
+                "comments": "Dandruff"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Marie Lumpkins",
+            "contact_no": 9101187505
+        },
+        "doctor": {
+            "name": "Dr. Mary Taylor",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "tamoxifen",
+                "quantity": 3,
+                "comments": "Breast Cancer, Adjuvant"
+            },
+            {
+                "name": "letrozole",
+                "quantity": 3,
+                "comments": "Breast Cancer, Adjuvant"
+            },
+            {
+                "name": "trastuzumab",
+                "quantity": 1,
+                "comments": "Breast Cancer, Adjuvant"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "James Roberts",
+            "contact_no": 9176207752
+        },
+        "doctor": {
+            "name": "Dr. Leo Williams",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "ondansetron",
+                "quantity": 1,
+                "comments": "Nausea/Vomiting"
+            },
+            {
+                "name": "promethazine",
+                "quantity": 2,
+                "comments": "Nausea/Vomiting"
+            },
+            {
+                "name": "metoclopramide",
+                "quantity": 1,
+                "comments": "Nausea/Vomiting"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Shannon Hanni",
+            "contact_no": 9448785375
+        },
+        "doctor": {
+            "name": "Dr. Eddie Henderson",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "clopidogrel",
+                "quantity": 1,
+                "comments": "Ischemic Stroke"
+            },
+            {
+                "name": "aspirin",
+                "quantity": 1,
+                "comments": "Ischemic Stroke"
+            },
+            {
+                "name": "alteplase",
+                "quantity": 1,
+                "comments": "Ischemic Stroke"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Ray Crosby",
+            "contact_no": 9928636018
+        },
+        "doctor": {
+            "name": "Dr. Joseph Burkhalter",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "albuterol",
+                "quantity": 3,
+                "comments": "Asthma, Maintenance"
+            },
+            {
+                "name": "montelukast",
+                "quantity": 1,
+                "comments": "Asthma, Maintenance"
+            },
+            {
+                "name": "fluticasone",
+                "quantity": 3,
+                "comments": "Asthma, Maintenance"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Charles Burkette",
+            "contact_no": 9834286803
+        },
+        "doctor": {
+            "name": "Dr. Brett Palmer",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "furosemide",
+                "quantity": 2,
+                "comments": "Oliguria"
+            },
+            {
+                "name": "mannitol",
+                "quantity": 1,
+                "comments": "Oliguria"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jorge Garrison",
+            "contact_no": 9068116794
+        },
+        "doctor": {
+            "name": "Dr. Joel Beahm",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "dexamethasone",
+                "quantity": 3,
+                "comments": "Multiple Myeloma"
+            },
+            {
+                "name": "thalidomide",
+                "quantity": 1,
+                "comments": "Multiple Myeloma"
+            },
+            {
+                "name": "cyclophosphamide",
+                "quantity": 2,
+                "comments": "Multiple Myeloma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Minnie Pendleton",
+            "contact_no": 9477487719
+        },
+        "doctor": {
+            "name": "Dr. Luis Hedrick",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "medroxyprogesterone",
+                "quantity": 1,
+                "comments": "Amenorrhea"
+            },
+            {
+                "name": "progesterone",
+                "quantity": 2,
+                "comments": "Amenorrhea"
+            },
+            {
+                "name": "norethindrone",
+                "quantity": 1,
+                "comments": "Amenorrhea"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Daniel Berry",
+            "contact_no": 9025885271
+        },
+        "doctor": {
+            "name": "Dr. Max Chipman",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "dexamethasone",
+                "quantity": 2,
+                "comments": "Multiple Myeloma"
+            },
+            {
+                "name": "thalidomide",
+                "quantity": 2,
+                "comments": "Multiple Myeloma"
+            },
+            {
+                "name": "cyclophosphamide",
+                "quantity": 1,
+                "comments": "Multiple Myeloma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Toya Holt",
+            "contact_no": 9075235825
+        },
+        "doctor": {
+            "name": "Dr. Johnny Banks",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "testosterone",
+                "quantity": 3,
+                "comments": "Hypogonadism, Male"
+            },
+            {
+                "name": "chorionic gonadotropin (hcg)",
+                "quantity": 3,
+                "comments": "Hypogonadism, Male"
+            },
+            {
+                "name": "follicle stimulating hormone",
+                "quantity": 2,
+                "comments": "Hypogonadism, Male"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Daniel Capps",
+            "contact_no": 9452222779
+        },
+        "doctor": {
+            "name": "Dr. Jeanette Williams",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "gabapentin",
+                "quantity": 3,
+                "comments": "Reflex Sympathetic Dystrophy Syndrome"
+            },
+            {
+                "name": "trazodone",
+                "quantity": 2,
+                "comments": "Reflex Sympathetic Dystrophy Syndrome"
+            },
+            {
+                "name": "amitriptyline",
+                "quantity": 1,
+                "comments": "Reflex Sympathetic Dystrophy Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Brenda Morgan",
+            "contact_no": 9000963231
+        },
+        "doctor": {
+            "name": "Dr. Cecilia Phillips",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 3,
+                "comments": "Prostatitis"
+            },
+            {
+                "name": "doxycycline",
+                "quantity": 1,
+                "comments": "Prostatitis"
+            },
+            {
+                "name": "oxybutynin",
+                "quantity": 1,
+                "comments": "Prostatitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Daniel Nieto",
+            "contact_no": 9143822558
+        },
+        "doctor": {
+            "name": "Dr. Michael Butler",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "vitamin a & d",
+                "quantity": 3,
+                "comments": "Minor Skin Irritation"
+            },
+            {
+                "name": "pramoxine / zinc acetate",
+                "quantity": 1,
+                "comments": "Minor Skin Irritation"
+            },
+            {
+                "name": "camphor / menthol",
+                "quantity": 2,
+                "comments": "Minor Skin Irritation"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Marquita Walling",
+            "contact_no": 9291033076
+        },
+        "doctor": {
+            "name": "Dr. Michael Youngblood",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "interferon alfa-2b",
+                "quantity": 2,
+                "comments": "Melanoma"
+            },
+            {
+                "name": "nivolumab",
+                "quantity": 2,
+                "comments": "Melanoma"
+            },
+            {
+                "name": "ipilimumab",
+                "quantity": 1,
+                "comments": "Melanoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Emily Jones",
+            "contact_no": 9524748780
+        },
+        "doctor": {
+            "name": "Dr. Ella Partington",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "metronidazole",
+                "quantity": 2,
+                "comments": "Amebiasis"
+            },
+            {
+                "name": "tinidazole",
+                "quantity": 3,
+                "comments": "Amebiasis"
+            },
+            {
+                "name": "nitazoxanide",
+                "quantity": 1,
+                "comments": "Amebiasis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Wilbur Thiessen",
+            "contact_no": 9033228708
+        },
+        "doctor": {
+            "name": "Dr. Emily Hart",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "atropine",
+                "quantity": 3,
+                "comments": "AV Heart Block"
+            },
+            {
+                "name": "epinephrine",
+                "quantity": 3,
+                "comments": "AV Heart Block"
+            },
+            {
+                "name": "isoproterenol",
+                "quantity": 3,
+                "comments": "AV Heart Block"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Lida Washington",
+            "contact_no": 9612918615
+        },
+        "doctor": {
+            "name": "Dr. Rickey Thomas",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "fluorometholone",
+                "quantity": 3,
+                "comments": "Eye Redness"
+            },
+            {
+                "name": "naphazoline",
+                "quantity": 1,
+                "comments": "Eye Redness"
+            },
+            {
+                "name": "tetrahydrozoline",
+                "quantity": 3,
+                "comments": "Eye Redness"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Margaret Stephens",
+            "contact_no": 9069975066
+        },
+        "doctor": {
+            "name": "Dr. Humberto Abnet",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "rituximab",
+                "quantity": 3,
+                "comments": "Follicular Lymphoma"
+            },
+            {
+                "name": "clarithromycin",
+                "quantity": 1,
+                "comments": "Follicular Lymphoma"
+            },
+            {
+                "name": "idelalisib",
+                "quantity": 1,
+                "comments": "Follicular Lymphoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Beverly Mendoza",
+            "contact_no": 9068005492
+        },
+        "doctor": {
+            "name": "Dr. Katie Moser",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "cyclobenzaprine",
+                "quantity": 2,
+                "comments": "Chronic Myofascial Pain"
+            },
+            {
+                "name": "amitriptyline",
+                "quantity": 3,
+                "comments": "Chronic Myofascial Pain"
+            },
+            {
+                "name": "clonazepam",
+                "quantity": 3,
+                "comments": "Chronic Myofascial Pain"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Marcella Moynihan",
+            "contact_no": 9602642165
+        },
+        "doctor": {
+            "name": "Dr. Melissa Streetman",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "meloxicam",
+                "quantity": 3,
+                "comments": "Osteoarthritis"
+            },
+            {
+                "name": "diclofenac",
+                "quantity": 3,
+                "comments": "Osteoarthritis"
+            },
+            {
+                "name": "naproxen",
+                "quantity": 3,
+                "comments": "Osteoarthritis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Francisco Shea",
+            "contact_no": 9194342057
+        },
+        "doctor": {
+            "name": "Dr. Patricia Peterson",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "clopidogrel",
+                "quantity": 1,
+                "comments": "Transient Ischemic Attack"
+            },
+            {
+                "name": "aspirin",
+                "quantity": 2,
+                "comments": "Transient Ischemic Attack"
+            },
+            {
+                "name": "clopidogrel",
+                "quantity": 2,
+                "comments": "Transient Ischemic Attack"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Myrtle Jackson",
+            "contact_no": 9473718954
+        },
+        "doctor": {
+            "name": "Dr. Sylvia Hutchins",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "ferrous sulfate",
+                "quantity": 3,
+                "comments": "Iron Deficiency Anemia"
+            },
+            {
+                "name": "ferrous gluconate",
+                "quantity": 2,
+                "comments": "Iron Deficiency Anemia"
+            },
+            {
+                "name": "ferrous fumarate",
+                "quantity": 1,
+                "comments": "Iron Deficiency Anemia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jason Barkett",
+            "contact_no": 9802946483
+        },
+        "doctor": {
+            "name": "Dr. Victoria Puulei",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "prednisone",
+                "quantity": 2,
+                "comments": "Aspiration Pneumonia"
+            },
+            {
+                "name": "clindamycin",
+                "quantity": 2,
+                "comments": "Aspiration Pneumonia"
+            },
+            {
+                "name": "amoxicillin / clavulanate",
+                "quantity": 3,
+                "comments": "Aspiration Pneumonia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Andrew White",
+            "contact_no": 9766435930
+        },
+        "doctor": {
+            "name": "Dr. Edwin Federico",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "prazosin",
+                "quantity": 3,
+                "comments": "Post Traumatic Stress Disorder"
+            },
+            {
+                "name": "sertraline",
+                "quantity": 1,
+                "comments": "Post Traumatic Stress Disorder"
+            },
+            {
+                "name": "lamotrigine",
+                "quantity": 2,
+                "comments": "Post Traumatic Stress Disorder"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Cecil Hill",
+            "contact_no": 9867352422
+        },
+        "doctor": {
+            "name": "Dr. Patricia Parker",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "cyclosporine",
+                "quantity": 2,
+                "comments": "Evan's Syndrome"
+            },
+            {
+                "name": "dexamethasone",
+                "quantity": 2,
+                "comments": "Evan's Syndrome"
+            },
+            {
+                "name": "immune globulin intravenous",
+                "quantity": 2,
+                "comments": "Evan's Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Andrew Coward",
+            "contact_no": 9879769136
+        },
+        "doctor": {
+            "name": "Dr. Frederic Notice",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "benzonatate",
+                "quantity": 1,
+                "comments": "Cough"
+            },
+            {
+                "name": "guaifenesin",
+                "quantity": 3,
+                "comments": "Cough"
+            },
+            {
+                "name": "codeine / guaifenesin",
+                "quantity": 3,
+                "comments": "Cough"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Antonio Larock",
+            "contact_no": 9946969505
+        },
+        "doctor": {
+            "name": "Dr. Patricia Rawling",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "vancomycin",
+                "quantity": 3,
+                "comments": "Sepsis"
+            },
+            {
+                "name": "ceftriaxone",
+                "quantity": 3,
+                "comments": "Sepsis"
+            },
+            {
+                "name": "cefuroxime",
+                "quantity": 1,
+                "comments": "Sepsis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Barry Yarnell",
+            "contact_no": 9902377750
+        },
+        "doctor": {
+            "name": "Dr. Robert Nokes",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "oseltamivir",
+                "quantity": 3,
+                "comments": "Influenza"
+            },
+            {
+                "name": "amantadine",
+                "quantity": 2,
+                "comments": "Influenza"
+            },
+            {
+                "name": "acetaminophen / dextromethorphan / guaifenesin / phenylephrine",
+                "quantity": 2,
+                "comments": "Influenza"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "James Sweet",
+            "contact_no": 9741357964
+        },
+        "doctor": {
+            "name": "Dr. Stanley Sheffield",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 2,
+                "comments": "Kidney Infections (Pyelonephritis)"
+            },
+            {
+                "name": "cephalexin",
+                "quantity": 1,
+                "comments": "Kidney Infections (Pyelonephritis)"
+            },
+            {
+                "name": "sulfamethoxazole / trimethoprim",
+                "quantity": 2,
+                "comments": "Kidney Infections (Pyelonephritis)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Ida Ruppert",
+            "contact_no": 9656189978
+        },
+        "doctor": {
+            "name": "Dr. Glenn Harris",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "epoetin alfa",
+                "quantity": 3,
+                "comments": "Anemia, Drug Induced"
+            },
+            {
+                "name": "epoetin alfa",
+                "quantity": 3,
+                "comments": "Anemia, Drug Induced"
+            },
+            {
+                "name": "epoetin alfa",
+                "quantity": 1,
+                "comments": "Anemia, Drug Induced"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Mario Green",
+            "contact_no": 9809705905
+        },
+        "doctor": {
+            "name": "Dr. Irma Poss",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "trazodone",
+                "quantity": 2,
+                "comments": "Insomnia"
+            },
+            {
+                "name": "zolpidem",
+                "quantity": 3,
+                "comments": "Insomnia"
+            },
+            {
+                "name": "temazepam",
+                "quantity": 3,
+                "comments": "Insomnia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Rhonda Wilson",
+            "contact_no": 9908918323
+        },
+        "doctor": {
+            "name": "Dr. Angela Staley",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "interferon alfa-2b",
+                "quantity": 2,
+                "comments": "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma"
+            },
+            {
+                "name": "interferon alfa-2b",
+                "quantity": 1,
+                "comments": "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma"
+            },
+            {
+                "name": "interferon alfa-2b",
+                "quantity": 2,
+                "comments": "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Margo Simmons",
+            "contact_no": 9548324864
+        },
+        "doctor": {
+            "name": "Dr. Julie Mattox",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "permethrin",
+                "quantity": 2,
+                "comments": "Lice"
+            },
+            {
+                "name": "lindane",
+                "quantity": 3,
+                "comments": "Lice"
+            },
+            {
+                "name": "piperonyl butoxide / pyrethrins",
+                "quantity": 3,
+                "comments": "Lice"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Diana Williams",
+            "contact_no": 9164629759
+        },
+        "doctor": {
+            "name": "Dr. Brian Wilson",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "valacyclovir",
+                "quantity": 2,
+                "comments": "CMV Prophylaxis"
+            },
+            {
+                "name": "valganciclovir",
+                "quantity": 2,
+                "comments": "CMV Prophylaxis"
+            },
+            {
+                "name": "ganciclovir",
+                "quantity": 1,
+                "comments": "CMV Prophylaxis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Shannon Rosenfield",
+            "contact_no": 9765643382
+        },
+        "doctor": {
+            "name": "Dr. Joel Miller",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "temozolomide",
+                "quantity": 3,
+                "comments": "Anaplastic Oligodendroglioma"
+            },
+            {
+                "name": "vincristine",
+                "quantity": 3,
+                "comments": "Anaplastic Oligodendroglioma"
+            },
+            {
+                "name": "lomustine",
+                "quantity": 1,
+                "comments": "Anaplastic Oligodendroglioma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Maria Wilson",
+            "contact_no": 9708055511
+        },
+        "doctor": {
+            "name": "Dr. Sara Hendrix",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "fenofibrate",
+                "quantity": 3,
+                "comments": "Hyperlipoproteinemia Type IV, Elevated VLDL"
+            },
+            {
+                "name": "atorvastatin",
+                "quantity": 3,
+                "comments": "Hyperlipoproteinemia Type IV, Elevated VLDL"
+            },
+            {
+                "name": "niacin",
+                "quantity": 2,
+                "comments": "Hyperlipoproteinemia Type IV, Elevated VLDL"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Maria Moncivais",
+            "contact_no": 9325375757
+        },
+        "doctor": {
+            "name": "Dr. Michael Matos",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "quetiapine",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lamotrigine",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lithium",
+                "quantity": 3,
+                "comments": "Borderline Personality Disorder"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Frederick Ford",
+            "contact_no": 9268714000
+        },
+        "doctor": {
+            "name": "Dr. James Murray",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "adalimumab",
+                "quantity": 3,
+                "comments": "Hidradenitis Suppurativa"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Melanie Wertman",
+            "contact_no": 9562208823
+        },
+        "doctor": {
+            "name": "Dr. Angela Phillips",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "ivermectin",
+                "quantity": 3,
+                "comments": "Cutaneous Larva Migrans"
+            },
+            {
+                "name": "albendazole",
+                "quantity": 2,
+                "comments": "Cutaneous Larva Migrans"
+            },
+            {
+                "name": "ivermectin",
+                "quantity": 2,
+                "comments": "Cutaneous Larva Migrans"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Louis Weyandt",
+            "contact_no": 9578768957
+        },
+        "doctor": {
+            "name": "Dr. Diane Speegle",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "malathion",
+                "quantity": 3,
+                "comments": "Head Lice"
+            },
+            {
+                "name": "permethrin",
+                "quantity": 2,
+                "comments": "Head Lice"
+            },
+            {
+                "name": "piperonyl butoxide / pyrethrins",
+                "quantity": 3,
+                "comments": "Head Lice"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Kay Hundley",
+            "contact_no": 9125854634
+        },
+        "doctor": {
+            "name": "Dr. Frances Gonzalez",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "dapsone",
+                "quantity": 2,
+                "comments": "Pemphigoid"
+            },
+            {
+                "name": "prednisone",
+                "quantity": 3,
+                "comments": "Pemphigoid"
+            },
+            {
+                "name": "prednisolone",
+                "quantity": 2,
+                "comments": "Pemphigoid"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Alexander Winters",
+            "contact_no": 9692281783
+        },
+        "doctor": {
+            "name": "Dr. Gilberto Hardesty",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "naproxen",
+                "quantity": 1,
+                "comments": "Bursitis"
+            },
+            {
+                "name": "prednisone",
+                "quantity": 1,
+                "comments": "Bursitis"
+            },
+            {
+                "name": "indomethacin",
+                "quantity": 3,
+                "comments": "Bursitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Julie Hutchins",
+            "contact_no": 9942155607
+        },
+        "doctor": {
+            "name": "Dr. Joyce Walstrum",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "pazopanib",
+                "quantity": 3,
+                "comments": "Soft Tissue Sarcoma"
+            },
+            {
+                "name": "doxorubicin",
+                "quantity": 3,
+                "comments": "Soft Tissue Sarcoma"
+            },
+            {
+                "name": "methotrexate",
+                "quantity": 1,
+                "comments": "Soft Tissue Sarcoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "James Coppock",
+            "contact_no": 9495440154
+        },
+        "doctor": {
+            "name": "Dr. Denise Romero",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "isoniazid / pyrazinamide / rifampin",
+                "quantity": 3,
+                "comments": "Tuberculosis, Active"
+            },
+            {
+                "name": "ethambutol",
+                "quantity": 3,
+                "comments": "Tuberculosis, Active"
+            },
+            {
+                "name": "isoniazid",
+                "quantity": 1,
+                "comments": "Tuberculosis, Active"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "William Remington",
+            "contact_no": 9955139297
+        },
+        "doctor": {
+            "name": "Dr. Shantel Hammond",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "oxaliplatin",
+                "quantity": 2,
+                "comments": "Colorectal Cancer"
+            },
+            {
+                "name": "fluorouracil",
+                "quantity": 2,
+                "comments": "Colorectal Cancer"
+            },
+            {
+                "name": "leucovorin",
+                "quantity": 1,
+                "comments": "Colorectal Cancer"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Valencia May",
+            "contact_no": 9372853033
+        },
+        "doctor": {
+            "name": "Dr. Bennie Sterling",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 3,
+                "comments": "Urinary Tract Infection"
+            },
+            {
+                "name": "nitrofurantoin",
+                "quantity": 3,
+                "comments": "Urinary Tract Infection"
+            },
+            {
+                "name": "sulfamethoxazole / trimethoprim",
+                "quantity": 3,
+                "comments": "Urinary Tract Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Barbara Jordan",
+            "contact_no": 9514470240
+        },
+        "doctor": {
+            "name": "Dr. Katherine Belcher",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "iodixanol",
+                "quantity": 1,
+                "comments": "Peripheral Arteriography"
+            },
+            {
+                "name": "iopromide",
+                "quantity": 2,
+                "comments": "Peripheral Arteriography"
+            },
+            {
+                "name": "ioversol",
+                "quantity": 3,
+                "comments": "Peripheral Arteriography"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Bonnie Foushee",
+            "contact_no": 9088805416
+        },
+        "doctor": {
+            "name": "Dr. John Anderson",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "quetiapine",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lamotrigine",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lithium",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Annette Slinkard",
+            "contact_no": 9093086961
+        },
+        "doctor": {
+            "name": "Dr. Harriet Carrier",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 1,
+                "comments": "Plague"
+            },
+            {
+                "name": "levofloxacin",
+                "quantity": 2,
+                "comments": "Plague"
+            },
+            {
+                "name": "streptomycin",
+                "quantity": 2,
+                "comments": "Plague"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Lillian Baker",
+            "contact_no": 9315064039
+        },
+        "doctor": {
+            "name": "Dr. Doris Mizer",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "lisinopril",
+                "quantity": 2,
+                "comments": "Diabetic Kidney Disease (Diabetic Nephropathy)"
+            },
+            {
+                "name": "losartan",
+                "quantity": 3,
+                "comments": "Diabetic Kidney Disease (Diabetic Nephropathy)"
+            },
+            {
+                "name": "ramipril",
+                "quantity": 3,
+                "comments": "Diabetic Kidney Disease (Diabetic Nephropathy)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jackie Ford",
+            "contact_no": 9845748645
+        },
+        "doctor": {
+            "name": "Dr. Patricia Laureano",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "gadopentetate dimeglumine",
+                "quantity": 1,
+                "comments": "CNS Magnetic Resonance Imaging"
+            },
+            {
+                "name": "gadobutrol",
+                "quantity": 1,
+                "comments": "CNS Magnetic Resonance Imaging"
+            },
+            {
+                "name": "gadoteridol",
+                "quantity": 2,
+                "comments": "CNS Magnetic Resonance Imaging"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Betty Tote",
+            "contact_no": 9063497270
+        },
+        "doctor": {
+            "name": "Dr. Charles Irby",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "atorvastatin",
+                "quantity": 3,
+                "comments": "High Cholesterol"
+            },
+            {
+                "name": "simvastatin",
+                "quantity": 2,
+                "comments": "High Cholesterol"
+            },
+            {
+                "name": "pravastatin",
+                "quantity": 1,
+                "comments": "High Cholesterol"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Dennis Fitzloff",
+            "contact_no": 9657615507
+        },
+        "doctor": {
+            "name": "Dr. Margaret Mcgonagle",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "cyclobenzaprine",
+                "quantity": 3,
+                "comments": "Chronic Myofascial Pain"
+            },
+            {
+                "name": "amitriptyline",
+                "quantity": 3,
+                "comments": "Chronic Myofascial Pain"
+            },
+            {
+                "name": "clonazepam",
+                "quantity": 2,
+                "comments": "Chronic Myofascial Pain"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Matt Johnson",
+            "contact_no": 9235078864
+        },
+        "doctor": {
+            "name": "Dr. Darryl Haney",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "sertraline",
+                "quantity": 2,
+                "comments": "Postpartum Depression"
+            },
+            {
+                "name": "citalopram",
+                "quantity": 3,
+                "comments": "Postpartum Depression"
+            },
+            {
+                "name": "fluoxetine",
+                "quantity": 3,
+                "comments": "Postpartum Depression"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jason Ferguson",
+            "contact_no": 9162070699
+        },
+        "doctor": {
+            "name": "Dr. Richard Hilbert",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "tamoxifen",
+                "quantity": 2,
+                "comments": "Breast Cancer"
+            },
+            {
+                "name": "anastrozole",
+                "quantity": 1,
+                "comments": "Breast Cancer"
+            },
+            {
+                "name": "letrozole",
+                "quantity": 1,
+                "comments": "Breast Cancer"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Andre Denning",
+            "contact_no": 9459471757
+        },
+        "doctor": {
+            "name": "Dr. Donald Noble",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "sulfamethoxazole / trimethoprim",
+                "quantity": 3,
+                "comments": "Bacterial Skin Infection"
+            },
+            {
+                "name": "bacitracin",
+                "quantity": 1,
+                "comments": "Bacterial Skin Infection"
+            },
+            {
+                "name": "bacitracin / neomycin / polymyxin b",
+                "quantity": 1,
+                "comments": "Bacterial Skin Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Gina Wagner",
+            "contact_no": 9384917506
+        },
+        "doctor": {
+            "name": "Dr. Helen Frazier",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "testosterone",
+                "quantity": 1,
+                "comments": "Hypogonadism, Male"
+            },
+            {
+                "name": "chorionic gonadotropin (hcg)",
+                "quantity": 3,
+                "comments": "Hypogonadism, Male"
+            },
+            {
+                "name": "follicle stimulating hormone",
+                "quantity": 1,
+                "comments": "Hypogonadism, Male"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Kenneth Berg",
+            "contact_no": 9405229850
+        },
+        "doctor": {
+            "name": "Dr. Andrea Cooper",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "sildenafil",
+                "quantity": 1,
+                "comments": "Erectile Dysfunction"
+            },
+            {
+                "name": "tadalafil",
+                "quantity": 2,
+                "comments": "Erectile Dysfunction"
+            },
+            {
+                "name": "vardenafil",
+                "quantity": 1,
+                "comments": "Erectile Dysfunction"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Raymond Moritz",
+            "contact_no": 9975310042
+        },
+        "doctor": {
+            "name": "Dr. Patricia Wachter",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "filgrastim",
+                "quantity": 3,
+                "comments": "Myelodysplastic Syndrome"
+            },
+            {
+                "name": "azacitidine",
+                "quantity": 2,
+                "comments": "Myelodysplastic Syndrome"
+            },
+            {
+                "name": "decitabine",
+                "quantity": 1,
+                "comments": "Myelodysplastic Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Hubert Mcguire",
+            "contact_no": 9491128065
+        },
+        "doctor": {
+            "name": "Dr. John Hood",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "tamsulosin",
+                "quantity": 3,
+                "comments": "Urinary Tract Stones"
+            },
+            {
+                "name": "allopurinol",
+                "quantity": 3,
+                "comments": "Urinary Tract Stones"
+            },
+            {
+                "name": "magnesium oxide",
+                "quantity": 2,
+                "comments": "Urinary Tract Stones"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Wendy Mcintyre",
+            "contact_no": 9758327902
+        },
+        "doctor": {
+            "name": "Dr. Mary Carr",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "anastrozole",
+                "quantity": 1,
+                "comments": "Pubertal Gynecomastia"
+            },
+            {
+                "name": "clomiphene",
+                "quantity": 2,
+                "comments": "Pubertal Gynecomastia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Shirley Herron",
+            "contact_no": 9296252554
+        },
+        "doctor": {
+            "name": "Dr. Junita Hurst",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "prednisone",
+                "quantity": 3,
+                "comments": "COPD"
+            },
+            {
+                "name": "montelukast",
+                "quantity": 1,
+                "comments": "COPD"
+            },
+            {
+                "name": "budesonide / formoterol",
+                "quantity": 1,
+                "comments": "COPD"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Carlos Gaudreau",
+            "contact_no": 9324679721
+        },
+        "doctor": {
+            "name": "Dr. Ramona Correla",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "lamotrigine",
+                "quantity": 1,
+                "comments": "Bipolar Disorder"
+            },
+            {
+                "name": "lithium",
+                "quantity": 3,
+                "comments": "Bipolar Disorder"
+            },
+            {
+                "name": "quetiapine",
+                "quantity": 1,
+                "comments": "Bipolar Disorder"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Kelly Pierce",
+            "contact_no": 9659658923
+        },
+        "doctor": {
+            "name": "Dr. Vincent Nelson",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "albuterol",
+                "quantity": 3,
+                "comments": "Asthma, acute"
+            },
+            {
+                "name": "prednisolone",
+                "quantity": 2,
+                "comments": "Asthma, acute"
+            },
+            {
+                "name": "methylprednisolone",
+                "quantity": 3,
+                "comments": "Asthma, acute"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Oscar Baca",
+            "contact_no": 9586518489
+        },
+        "doctor": {
+            "name": "Dr. Gregory Wool",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "gabapentin",
+                "quantity": 2,
+                "comments": "Small Fiber Neuropathy"
+            },
+            {
+                "name": "duloxetine",
+                "quantity": 1,
+                "comments": "Small Fiber Neuropathy"
+            },
+            {
+                "name": "pregabalin",
+                "quantity": 1,
+                "comments": "Small Fiber Neuropathy"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Elvira Johnson",
+            "contact_no": 9036832576
+        },
+        "doctor": {
+            "name": "Dr. Kathy Barry",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "carvedilol",
+                "quantity": 1,
+                "comments": "Left Ventricular Dysfunction"
+            },
+            {
+                "name": "metoprolol",
+                "quantity": 1,
+                "comments": "Left Ventricular Dysfunction"
+            },
+            {
+                "name": "ramipril",
+                "quantity": 1,
+                "comments": "Left Ventricular Dysfunction"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Richard Levin",
+            "contact_no": 9362864414
+        },
+        "doctor": {
+            "name": "Dr. Roy Dailey",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "cyclophosphamide",
+                "quantity": 3,
+                "comments": "Non-Hodgkin's Lymphoma"
+            },
+            {
+                "name": "vincristine",
+                "quantity": 3,
+                "comments": "Non-Hodgkin's Lymphoma"
+            },
+            {
+                "name": "rituximab",
+                "quantity": 2,
+                "comments": "Non-Hodgkin's Lymphoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Lois Cole",
+            "contact_no": 9869555325
+        },
+        "doctor": {
+            "name": "Dr. Janet Adkins",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "barium sulfate",
+                "quantity": 2,
+                "comments": "Computed Tomography"
+            },
+            {
+                "name": "iodixanol",
+                "quantity": 3,
+                "comments": "Computed Tomography"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Eloise Rohm",
+            "contact_no": 9383628215
+        },
+        "doctor": {
+            "name": "Dr. Freddie Flores",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "phenazopyridine",
+                "quantity": 2,
+                "comments": "Interstitial Cystitis"
+            },
+            {
+                "name": "amitriptyline",
+                "quantity": 1,
+                "comments": "Interstitial Cystitis"
+            },
+            {
+                "name": "hydroxyzine",
+                "quantity": 3,
+                "comments": "Interstitial Cystitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Carolyn Dingle",
+            "contact_no": 9177394956
+        },
+        "doctor": {
+            "name": "Dr. Paul Geathers",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "oxybutynin",
+                "quantity": 3,
+                "comments": "Hyperhidrosis"
+            },
+            {
+                "name": "aluminum chloride hexahydrate",
+                "quantity": 2,
+                "comments": "Hyperhidrosis"
+            },
+            {
+                "name": "clonidine",
+                "quantity": 2,
+                "comments": "Hyperhidrosis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Anne Chapman",
+            "contact_no": 9124873327
+        },
+        "doctor": {
+            "name": "Dr. Georgette Tucker",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "prednisone",
+                "quantity": 3,
+                "comments": "Aspiration Pneumonia"
+            },
+            {
+                "name": "clindamycin",
+                "quantity": 2,
+                "comments": "Aspiration Pneumonia"
+            },
+            {
+                "name": "amoxicillin / clavulanate",
+                "quantity": 1,
+                "comments": "Aspiration Pneumonia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Brian Feeney",
+            "contact_no": 9535156930
+        },
+        "doctor": {
+            "name": "Dr. Steve Hong",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "triamcinolone",
+                "quantity": 2,
+                "comments": "Atopic Dermatitis"
+            },
+            {
+                "name": "clobetasol",
+                "quantity": 3,
+                "comments": "Atopic Dermatitis"
+            },
+            {
+                "name": "betamethasone",
+                "quantity": 1,
+                "comments": "Atopic Dermatitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "James Brown",
+            "contact_no": 9948218527
+        },
+        "doctor": {
+            "name": "Dr. Anh Silva",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "doxycycline",
+                "quantity": 2,
+                "comments": "Acne"
+            },
+            {
+                "name": "spironolactone",
+                "quantity": 3,
+                "comments": "Acne"
+            },
+            {
+                "name": "minocycline",
+                "quantity": 1,
+                "comments": "Acne"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Tamika Smith",
+            "contact_no": 9759464084
+        },
+        "doctor": {
+            "name": "Dr. Gary Cowan",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "hydrocortisone",
+                "quantity": 1,
+                "comments": "Skin Rash"
+            },
+            {
+                "name": "prednisone",
+                "quantity": 2,
+                "comments": "Skin Rash"
+            },
+            {
+                "name": "diflorasone",
+                "quantity": 3,
+                "comments": "Skin Rash"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Cathy Jack",
+            "contact_no": 9324184224
+        },
+        "doctor": {
+            "name": "Dr. Joann Maland",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "metoprolol",
+                "quantity": 2,
+                "comments": "Supraventricular Tachycardia"
+            },
+            {
+                "name": "atenolol",
+                "quantity": 1,
+                "comments": "Supraventricular Tachycardia"
+            },
+            {
+                "name": "diltiazem",
+                "quantity": 2,
+                "comments": "Supraventricular Tachycardia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Robert Geimer",
+            "contact_no": 9028993949
+        },
+        "doctor": {
+            "name": "Dr. Floyd Cota",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "quetiapine",
+                "quantity": 3,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lamotrigine",
+                "quantity": 3,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lithium",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Maria Henshaw",
+            "contact_no": 9628965127
+        },
+        "doctor": {
+            "name": "Dr. Michael Hill",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "prednisone",
+                "quantity": 3,
+                "comments": "Lymphoma"
+            },
+            {
+                "name": "dexamethasone",
+                "quantity": 2,
+                "comments": "Lymphoma"
+            },
+            {
+                "name": "doxorubicin",
+                "quantity": 2,
+                "comments": "Lymphoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Marcelino Bryan",
+            "contact_no": 9027272042
+        },
+        "doctor": {
+            "name": "Dr. William Falconer",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "gabapentin",
+                "quantity": 2,
+                "comments": "Reflex Sympathetic Dystrophy Syndrome"
+            },
+            {
+                "name": "trazodone",
+                "quantity": 2,
+                "comments": "Reflex Sympathetic Dystrophy Syndrome"
+            },
+            {
+                "name": "amitriptyline",
+                "quantity": 1,
+                "comments": "Reflex Sympathetic Dystrophy Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Steven Owens",
+            "contact_no": 9408039894
+        },
+        "doctor": {
+            "name": "Dr. Ann Evans",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "valacyclovir",
+                "quantity": 1,
+                "comments": "Cold Sores (Herpes Simplex Labialis)"
+            },
+            {
+                "name": "acyclovir",
+                "quantity": 2,
+                "comments": "Cold Sores (Herpes Simplex Labialis)"
+            },
+            {
+                "name": "acyclovir",
+                "quantity": 3,
+                "comments": "Cold Sores (Herpes Simplex Labialis)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Alan Morrow",
+            "contact_no": 9802613527
+        },
+        "doctor": {
+            "name": "Dr. Brenda Mitchell",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "hepatitis b adult vaccine",
+                "quantity": 1,
+                "comments": "Hepatitis B Prevention (Hepatitis B Prophylaxis)"
+            },
+            {
+                "name": "hepatitis a adult vaccine / hepatitis b adult vaccine",
+                "quantity": 2,
+                "comments": "Hepatitis B Prevention (Hepatitis B Prophylaxis)"
+            },
+            {
+                "name": "hepatitis b pediatric vaccine",
+                "quantity": 3,
+                "comments": "Hepatitis B Prevention (Hepatitis B Prophylaxis)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Estella Johnston",
+            "contact_no": 9736568886
+        },
+        "doctor": {
+            "name": "Dr. Franklin Dove",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "tocilizumab",
+                "quantity": 2,
+                "comments": "Cytokine Release Syndrome"
+            },
+            {
+                "name": "tocilizumab",
+                "quantity": 3,
+                "comments": "Cytokine Release Syndrome"
+            },
+            {
+                "name": "tocilizumab",
+                "quantity": 3,
+                "comments": "Cytokine Release Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Tracy Miller",
+            "contact_no": 9648443304
+        },
+        "doctor": {
+            "name": "Dr. Tina Rolfes",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "sertraline",
+                "quantity": 3,
+                "comments": "Postpartum Depression"
+            },
+            {
+                "name": "citalopram",
+                "quantity": 3,
+                "comments": "Postpartum Depression"
+            },
+            {
+                "name": "fluoxetine",
+                "quantity": 2,
+                "comments": "Postpartum Depression"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Andrew Crook",
+            "contact_no": 9836388921
+        },
+        "doctor": {
+            "name": "Dr. Melissa Kelly",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "pantoprazole",
+                "quantity": 3,
+                "comments": "Peptic Ulcer"
+            },
+            {
+                "name": "famotidine",
+                "quantity": 3,
+                "comments": "Peptic Ulcer"
+            },
+            {
+                "name": "glycopyrrolate",
+                "quantity": 1,
+                "comments": "Peptic Ulcer"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jerry Berardi",
+            "contact_no": 9154697361
+        },
+        "doctor": {
+            "name": "Dr. Lynn Goodman",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "meloxicam",
+                "quantity": 3,
+                "comments": "Inflammatory Conditions"
+            },
+            {
+                "name": "prednisone",
+                "quantity": 1,
+                "comments": "Inflammatory Conditions"
+            },
+            {
+                "name": "methylprednisolone",
+                "quantity": 3,
+                "comments": "Inflammatory Conditions"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jamie Mccourt",
+            "contact_no": 9787596421
+        },
+        "doctor": {
+            "name": "Dr. Irene Powell",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "prednisone",
+                "quantity": 1,
+                "comments": "COPD"
+            },
+            {
+                "name": "montelukast",
+                "quantity": 2,
+                "comments": "COPD"
+            },
+            {
+                "name": "budesonide / formoterol",
+                "quantity": 3,
+                "comments": "COPD"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Gregory Wheeler",
+            "contact_no": 9912033333
+        },
+        "doctor": {
+            "name": "Dr. Jimmy Ramos",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "tamsulosin",
+                "quantity": 2,
+                "comments": "Benign Prostatic Hyperplasia"
+            },
+            {
+                "name": "finasteride",
+                "quantity": 2,
+                "comments": "Benign Prostatic Hyperplasia"
+            },
+            {
+                "name": "doxazosin",
+                "quantity": 3,
+                "comments": "Benign Prostatic Hyperplasia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Daniel Bryant",
+            "contact_no": 9559115971
+        },
+        "doctor": {
+            "name": "Dr. Young Bowdry",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "amoxicillin",
+                "quantity": 3,
+                "comments": "Sinusitis"
+            },
+            {
+                "name": "prednisone",
+                "quantity": 3,
+                "comments": "Sinusitis"
+            },
+            {
+                "name": "amoxicillin / clavulanate",
+                "quantity": 2,
+                "comments": "Sinusitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "John Williamson",
+            "contact_no": 9162312987
+        },
+        "doctor": {
+            "name": "Dr. Yvonne Robinson",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "levofloxacin",
+                "quantity": 1,
+                "comments": "Streptococcal Infection"
+            },
+            {
+                "name": "penicillin v potassium",
+                "quantity": 3,
+                "comments": "Streptococcal Infection"
+            },
+            {
+                "name": "procaine penicillin",
+                "quantity": 3,
+                "comments": "Streptococcal Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Aubrey Bowers",
+            "contact_no": 9487897878
+        },
+        "doctor": {
+            "name": "Dr. Sonia Rasche",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "lubiprostone",
+                "quantity": 1,
+                "comments": "Constipation, Drug Induced"
+            },
+            {
+                "name": "methylnaltrexone",
+                "quantity": 3,
+                "comments": "Constipation, Drug Induced"
+            },
+            {
+                "name": "naloxegol",
+                "quantity": 1,
+                "comments": "Constipation, Drug Induced"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Rodrigo Hernandez",
+            "contact_no": 9774978203
+        },
+        "doctor": {
+            "name": "Dr. Dorothy Ross",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 1,
+                "comments": "Traveler's Diarrhea"
+            },
+            {
+                "name": "loperamide",
+                "quantity": 3,
+                "comments": "Traveler's Diarrhea"
+            },
+            {
+                "name": "rifaximin",
+                "quantity": 2,
+                "comments": "Traveler's Diarrhea"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Scott Newsome",
+            "contact_no": 9326779812
+        },
+        "doctor": {
+            "name": "Dr. Awilda Hawthorne",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "prednisone",
+                "quantity": 2,
+                "comments": "Graft-versus-host disease"
+            },
+            {
+                "name": "tacrolimus",
+                "quantity": 2,
+                "comments": "Graft-versus-host disease"
+            },
+            {
+                "name": "ibrutinib",
+                "quantity": 3,
+                "comments": "Graft-versus-host disease"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Rose Oscar",
+            "contact_no": 9270268782
+        },
+        "doctor": {
+            "name": "Dr. Leone Leon",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "warfarin",
+                "quantity": 2,
+                "comments": "Deep Vein Thrombosis Prophylaxis after Knee Replacement Surgery"
+            },
+            {
+                "name": "enoxaparin",
+                "quantity": 3,
+                "comments": "Deep Vein Thrombosis Prophylaxis after Knee Replacement Surgery"
+            },
+            {
+                "name": "apixaban",
+                "quantity": 2,
+                "comments": "Deep Vein Thrombosis Prophylaxis after Knee Replacement Surgery"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Holly Obrien",
+            "contact_no": 9495629184
+        },
+        "doctor": {
+            "name": "Dr. Stephan Adams",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "simethicone",
+                "quantity": 3,
+                "comments": "Gas"
+            },
+            {
+                "name": "aluminum hydroxide / magnesium hydroxide / simethicone",
+                "quantity": 3,
+                "comments": "Gas"
+            },
+            {
+                "name": "simethicone",
+                "quantity": 1,
+                "comments": "Gas"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Jimmy Moore",
+            "contact_no": 9735440596
+        },
+        "doctor": {
+            "name": "Dr. Katharine Diaz",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "azathioprine",
+                "quantity": 1,
+                "comments": "Granulomatosis with Polyangiitis"
+            },
+            {
+                "name": "rituximab",
+                "quantity": 1,
+                "comments": "Granulomatosis with Polyangiitis"
+            },
+            {
+                "name": "cyclophosphamide",
+                "quantity": 1,
+                "comments": "Granulomatosis with Polyangiitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Sara Maness",
+            "contact_no": 9961474851
+        },
+        "doctor": {
+            "name": "Dr. Tammy Robison",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "omeprazole",
+                "quantity": 3,
+                "comments": "GERD"
+            },
+            {
+                "name": "pantoprazole",
+                "quantity": 2,
+                "comments": "GERD"
+            },
+            {
+                "name": "ranitidine",
+                "quantity": 1,
+                "comments": "GERD"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Shannon Crist",
+            "contact_no": 9437711480
+        },
+        "doctor": {
+            "name": "Dr. Richard Hernandez",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "ibrutinib",
+                "quantity": 3,
+                "comments": "Mantle Cell Lymphoma"
+            },
+            {
+                "name": "rituximab",
+                "quantity": 3,
+                "comments": "Mantle Cell Lymphoma"
+            },
+            {
+                "name": "lenalidomide",
+                "quantity": 3,
+                "comments": "Mantle Cell Lymphoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Megan Hart",
+            "contact_no": 9429427886
+        },
+        "doctor": {
+            "name": "Dr. Daniel Mister",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "clotrimazole",
+                "quantity": 3,
+                "comments": "Tinea Pedis"
+            },
+            {
+                "name": "ketoconazole",
+                "quantity": 1,
+                "comments": "Tinea Pedis"
+            },
+            {
+                "name": "terbinafine",
+                "quantity": 2,
+                "comments": "Tinea Pedis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Nita Hudson",
+            "contact_no": 9459778026
+        },
+        "doctor": {
+            "name": "Dr. Jesse Brousseau",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "estradiol",
+                "quantity": 3,
+                "comments": "Atrophic Vaginitis"
+            },
+            {
+                "name": "estradiol",
+                "quantity": 3,
+                "comments": "Atrophic Vaginitis"
+            },
+            {
+                "name": "conjugated estrogens",
+                "quantity": 2,
+                "comments": "Atrophic Vaginitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Robert Dove",
+            "contact_no": 9667400554
+        },
+        "doctor": {
+            "name": "Dr. Michael Hawkins",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "vancomycin",
+                "quantity": 1,
+                "comments": "Methicillin-Resistant Staphylococcus Aureus Infection"
+            },
+            {
+                "name": "linezolid",
+                "quantity": 3,
+                "comments": "Methicillin-Resistant Staphylococcus Aureus Infection"
+            },
+            {
+                "name": "daptomycin",
+                "quantity": 1,
+                "comments": "Methicillin-Resistant Staphylococcus Aureus Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Glen Galvin",
+            "contact_no": 9917906423
+        },
+        "doctor": {
+            "name": "Dr. Hugo Cruz",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "brompheniramine / dextromethorphan / pseudoephedrine",
+                "quantity": 3,
+                "comments": "Cough and Nasal Congestion"
+            },
+            {
+                "name": "guaifenesin / pseudoephedrine",
+                "quantity": 2,
+                "comments": "Cough and Nasal Congestion"
+            },
+            {
+                "name": "dextromethorphan / guaifenesin / phenylephrine",
+                "quantity": 2,
+                "comments": "Cough and Nasal Congestion"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Helen Acevedo",
+            "contact_no": 9128643716
+        },
+        "doctor": {
+            "name": "Dr. Jeffrey Rodriguez",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "ondansetron",
+                "quantity": 3,
+                "comments": "Gastroenteritis"
+            },
+            {
+                "name": "doxycycline",
+                "quantity": 2,
+                "comments": "Gastroenteritis"
+            },
+            {
+                "name": "ceftriaxone",
+                "quantity": 1,
+                "comments": "Gastroenteritis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Gabriel Howard",
+            "contact_no": 9480095370
+        },
+        "doctor": {
+            "name": "Dr. Winston Daugherty",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "flumazenil",
+                "quantity": 1,
+                "comments": "Reversal of Sedation"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Amber Jankowski",
+            "contact_no": 9915835931
+        },
+        "doctor": {
+            "name": "Dr. Nathan Nichols",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "fluorouracil",
+                "quantity": 3,
+                "comments": "Basal Cell Carcinoma"
+            },
+            {
+                "name": "imiquimod",
+                "quantity": 2,
+                "comments": "Basal Cell Carcinoma"
+            },
+            {
+                "name": "vismodegib",
+                "quantity": 1,
+                "comments": "Basal Cell Carcinoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Helen Ballard",
+            "contact_no": 9746434018
+        },
+        "doctor": {
+            "name": "Dr. Janet Brown",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "lutein",
+                "quantity": 3,
+                "comments": "Eye Conditions"
+            },
+            {
+                "name": "sulfacetamide sodium",
+                "quantity": 3,
+                "comments": "Eye Conditions"
+            },
+            {
+                "name": "natamycin",
+                "quantity": 1,
+                "comments": "Eye Conditions"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Concepcion Jenkins",
+            "contact_no": 9353272181
+        },
+        "doctor": {
+            "name": "Dr. Dennis Greenwood",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 2,
+                "comments": "Bladder Infection"
+            },
+            {
+                "name": "nitrofurantoin",
+                "quantity": 2,
+                "comments": "Bladder Infection"
+            },
+            {
+                "name": "cephalexin",
+                "quantity": 2,
+                "comments": "Bladder Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Ethel Marquis",
+            "contact_no": 9227991609
+        },
+        "doctor": {
+            "name": "Dr. Donny Rice",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "clotrimazole",
+                "quantity": 2,
+                "comments": "Tinea Pedis"
+            },
+            {
+                "name": "ketoconazole",
+                "quantity": 2,
+                "comments": "Tinea Pedis"
+            },
+            {
+                "name": "terbinafine",
+                "quantity": 3,
+                "comments": "Tinea Pedis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Teresa Burrows",
+            "contact_no": 9840147553
+        },
+        "doctor": {
+            "name": "Dr. Anne Merkle",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "amoxicillin",
+                "quantity": 1,
+                "comments": "Bacterial Endocarditis Prevention (Bacterial Endocarditis Prophylaxis)"
+            },
+            {
+                "name": "cephalexin",
+                "quantity": 2,
+                "comments": "Bacterial Endocarditis Prevention (Bacterial Endocarditis Prophylaxis)"
+            },
+            {
+                "name": "clarithromycin",
+                "quantity": 3,
+                "comments": "Bacterial Endocarditis Prevention (Bacterial Endocarditis Prophylaxis)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Nancy Davis",
+            "contact_no": 9733889732
+        },
+        "doctor": {
+            "name": "Dr. Tom Ross",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "alendronate",
+                "quantity": 2,
+                "comments": "Osteoporosis"
+            },
+            {
+                "name": "calcium / vitamin d",
+                "quantity": 3,
+                "comments": "Osteoporosis"
+            },
+            {
+                "name": "calcium carbonate",
+                "quantity": 2,
+                "comments": "Osteoporosis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "John Griffin",
+            "contact_no": 9267784129
+        },
+        "doctor": {
+            "name": "Dr. Jason Whitrock",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "modafinil",
+                "quantity": 2,
+                "comments": "Fatigue"
+            },
+            {
+                "name": "methylphenidate",
+                "quantity": 1,
+                "comments": "Fatigue"
+            },
+            {
+                "name": "amphetamine / dextroamphetamine",
+                "quantity": 2,
+                "comments": "Fatigue"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Elmo Fogg",
+            "contact_no": 9278791611
+        },
+        "doctor": {
+            "name": "Dr. Rosa Mccowan",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "nifedipine",
+                "quantity": 3,
+                "comments": "Raynaud's Syndrome"
+            },
+            {
+                "name": "amlodipine",
+                "quantity": 3,
+                "comments": "Raynaud's Syndrome"
+            },
+            {
+                "name": "diltiazem",
+                "quantity": 3,
+                "comments": "Raynaud's Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Julia Wall",
+            "contact_no": 9435518709
+        },
+        "doctor": {
+            "name": "Dr. Justin Stacy",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "acetylcysteine",
+                "quantity": 1,
+                "comments": "Expectoration (Mucolysis)"
+            },
+            {
+                "name": "dextromethorphan / guaifenesin",
+                "quantity": 2,
+                "comments": "Expectoration (Mucolysis)"
+            },
+            {
+                "name": "acetylcysteine",
+                "quantity": 2,
+                "comments": "Expectoration (Mucolysis)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Charolette Russell",
+            "contact_no": 9179723753
+        },
+        "doctor": {
+            "name": "Dr. Corey Kane",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "carbidopa / levodopa",
+                "quantity": 2,
+                "comments": "Neuroleptic Malignant Syndrome"
+            },
+            {
+                "name": "carbidopa",
+                "quantity": 3,
+                "comments": "Neuroleptic Malignant Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "David Ayers",
+            "contact_no": 9580140105
+        },
+        "doctor": {
+            "name": "Dr. Ryan Visher",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "antihemophilic factor",
+                "quantity": 3,
+                "comments": "Hemophilia A"
+            },
+            {
+                "name": "desmopressin",
+                "quantity": 3,
+                "comments": "Hemophilia A"
+            },
+            {
+                "name": "tranexamic acid",
+                "quantity": 1,
+                "comments": "Hemophilia A"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Lewis Mccarthy",
+            "contact_no": 9127680660
+        },
+        "doctor": {
+            "name": "Dr. Becky Graves",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "hydroxychloroquine",
+                "quantity": 2,
+                "comments": "Lyme Disease, Arthritis"
+            },
+            {
+                "name": "doxycycline",
+                "quantity": 3,
+                "comments": "Lyme Disease, Arthritis"
+            },
+            {
+                "name": "amoxicillin",
+                "quantity": 3,
+                "comments": "Lyme Disease, Arthritis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Shane Taylor",
+            "contact_no": 9662811589
+        },
+        "doctor": {
+            "name": "Dr. Ann Mulligan",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "vincristine",
+                "quantity": 2,
+                "comments": "Neuroblastoma"
+            },
+            {
+                "name": "cisplatin",
+                "quantity": 3,
+                "comments": "Neuroblastoma"
+            },
+            {
+                "name": "cyclophosphamide",
+                "quantity": 3,
+                "comments": "Neuroblastoma"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "James Martich",
+            "contact_no": 9978926046
+        },
+        "doctor": {
+            "name": "Dr. Debora Eskridge",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "doxycycline",
+                "quantity": 3,
+                "comments": "Rosacea"
+            },
+            {
+                "name": "metronidazole",
+                "quantity": 2,
+                "comments": "Rosacea"
+            },
+            {
+                "name": "minocycline",
+                "quantity": 1,
+                "comments": "Rosacea"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Anne Hawkins",
+            "contact_no": 9887616674
+        },
+        "doctor": {
+            "name": "Dr. Alfonzo Rigney",
+            "qualification": "MBBS MD",
+            "specialization": "Surgery"
+        },
+        "meds": [
+            {
+                "name": "quetiapine",
+                "quantity": 2,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lamotrigine",
+                "quantity": 3,
+                "comments": "Borderline Personality Disorder"
+            },
+            {
+                "name": "lithium",
+                "quantity": 3,
+                "comments": "Borderline Personality Disorder"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Daniel Sidney",
+            "contact_no": 9968745230
+        },
+        "doctor": {
+            "name": "Dr. Raul Barker",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "fluticasone",
+                "quantity": 1,
+                "comments": "Bronchopulmonary Dysplasia"
+            },
+            {
+                "name": "prednisolone",
+                "quantity": 3,
+                "comments": "Bronchopulmonary Dysplasia"
+            },
+            {
+                "name": "dexamethasone",
+                "quantity": 1,
+                "comments": "Bronchopulmonary Dysplasia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Barbara Slattery",
+            "contact_no": 9754628170
+        },
+        "doctor": {
+            "name": "Dr. Walter Dillahunt",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "haloperidol",
+                "quantity": 3,
+                "comments": "Psychosis"
+            },
+            {
+                "name": "perphenazine",
+                "quantity": 3,
+                "comments": "Psychosis"
+            },
+            {
+                "name": "chlorpromazine",
+                "quantity": 1,
+                "comments": "Psychosis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Amy Funches",
+            "contact_no": 9358698493
+        },
+        "doctor": {
+            "name": "Dr. Richard Rowell",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "clopidogrel",
+                "quantity": 3,
+                "comments": "Platelet Aggregation Inhibition"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Karen Weiker",
+            "contact_no": 9705030880
+        },
+        "doctor": {
+            "name": "Dr. Arlene Hale",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "ursodiol",
+                "quantity": 3,
+                "comments": "Primary Biliary Cholangitis"
+            },
+            {
+                "name": "colchicine",
+                "quantity": 1,
+                "comments": "Primary Biliary Cholangitis"
+            },
+            {
+                "name": "azathioprine",
+                "quantity": 1,
+                "comments": "Primary Biliary Cholangitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Helen Goudy",
+            "contact_no": 9038118360
+        },
+        "doctor": {
+            "name": "Dr. Deborah Lupo",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "epoetin alfa",
+                "quantity": 2,
+                "comments": "Anemia, Drug Induced"
+            },
+            {
+                "name": "epoetin alfa",
+                "quantity": 2,
+                "comments": "Anemia, Drug Induced"
+            },
+            {
+                "name": "epoetin alfa",
+                "quantity": 1,
+                "comments": "Anemia, Drug Induced"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Barbara Porter",
+            "contact_no": 9972148467
+        },
+        "doctor": {
+            "name": "Dr. Tammy Cohen",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "metronidazole",
+                "quantity": 1,
+                "comments": "Gastrointestinal Perforation"
+            },
+            {
+                "name": "ciprofloxacin",
+                "quantity": 3,
+                "comments": "Gastrointestinal Perforation"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Federico Cantwell",
+            "contact_no": 9224739823
+        },
+        "doctor": {
+            "name": "Dr. Crystal Misner",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "vancomycin",
+                "quantity": 3,
+                "comments": "Methicillin-Resistant Staphylococcus Aureus Infection"
+            },
+            {
+                "name": "linezolid",
+                "quantity": 3,
+                "comments": "Methicillin-Resistant Staphylococcus Aureus Infection"
+            },
+            {
+                "name": "daptomycin",
+                "quantity": 1,
+                "comments": "Methicillin-Resistant Staphylococcus Aureus Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Edith Kramp",
+            "contact_no": 9043675089
+        },
+        "doctor": {
+            "name": "Dr. John Hill",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "tamoxifen",
+                "quantity": 2,
+                "comments": "Breast Cancer"
+            },
+            {
+                "name": "anastrozole",
+                "quantity": 3,
+                "comments": "Breast Cancer"
+            },
+            {
+                "name": "letrozole",
+                "quantity": 3,
+                "comments": "Breast Cancer"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Michael Brown",
+            "contact_no": 9585063784
+        },
+        "doctor": {
+            "name": "Dr. Ida Green",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "imatinib",
+                "quantity": 2,
+                "comments": "Chronic Myelogenous Leukemia"
+            },
+            {
+                "name": "hydroxyurea",
+                "quantity": 3,
+                "comments": "Chronic Myelogenous Leukemia"
+            },
+            {
+                "name": "nilotinib",
+                "quantity": 3,
+                "comments": "Chronic Myelogenous Leukemia"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Stuart Schwend",
+            "contact_no": 9415402223
+        },
+        "doctor": {
+            "name": "Dr. Jennifer Knoedler",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "ciprofloxacin",
+                "quantity": 1,
+                "comments": "Kidney Infections (Pyelonephritis)"
+            },
+            {
+                "name": "cephalexin",
+                "quantity": 2,
+                "comments": "Kidney Infections (Pyelonephritis)"
+            },
+            {
+                "name": "sulfamethoxazole / trimethoprim",
+                "quantity": 2,
+                "comments": "Kidney Infections (Pyelonephritis)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Linda Evans",
+            "contact_no": 9166874297
+        },
+        "doctor": {
+            "name": "Dr. Gregory Vaughan",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "atropine",
+                "quantity": 1,
+                "comments": "Anticholinesterase Poisoning"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Kennith Hooser",
+            "contact_no": 9189896275
+        },
+        "doctor": {
+            "name": "Dr. Ora Palmese",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "doxycycline",
+                "quantity": 3,
+                "comments": "Rabbit Fever (Tularemia)"
+            },
+            {
+                "name": "streptomycin",
+                "quantity": 1,
+                "comments": "Rabbit Fever (Tularemia)"
+            },
+            {
+                "name": "ciprofloxacin",
+                "quantity": 2,
+                "comments": "Rabbit Fever (Tularemia)"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Pierre Remmick",
+            "contact_no": 9117111794
+        },
+        "doctor": {
+            "name": "Dr. David Norris",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "methotrexate",
+                "quantity": 1,
+                "comments": "Uveitis"
+            },
+            {
+                "name": "cyclopentolate",
+                "quantity": 1,
+                "comments": "Uveitis"
+            },
+            {
+                "name": "atropine",
+                "quantity": 1,
+                "comments": "Uveitis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Dean Shakespeare",
+            "contact_no": 9903633116
+        },
+        "doctor": {
+            "name": "Dr. Mabel Hendon",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "fenofibrate",
+                "quantity": 1,
+                "comments": "Hyperlipoproteinemia Type IIb, Elevated LDL   VLDL"
+            },
+            {
+                "name": "gemfibrozil",
+                "quantity": 2,
+                "comments": "Hyperlipoproteinemia Type IIb, Elevated LDL   VLDL"
+            },
+            {
+                "name": "atorvastatin",
+                "quantity": 3,
+                "comments": "Hyperlipoproteinemia Type IIb, Elevated LDL   VLDL"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Michael Vivian",
+            "contact_no": 9212053683
+        },
+        "doctor": {
+            "name": "Dr. Juan Bostick",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "doxycycline",
+                "quantity": 1,
+                "comments": "Acne"
+            },
+            {
+                "name": "spironolactone",
+                "quantity": 1,
+                "comments": "Acne"
+            },
+            {
+                "name": "minocycline",
+                "quantity": 2,
+                "comments": "Acne"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Emily Lee",
+            "contact_no": 9446819901
+        },
+        "doctor": {
+            "name": "Dr. Marilyn Tedrow",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "nifedipine",
+                "quantity": 1,
+                "comments": "Raynaud's Syndrome"
+            },
+            {
+                "name": "amlodipine",
+                "quantity": 3,
+                "comments": "Raynaud's Syndrome"
+            },
+            {
+                "name": "diltiazem",
+                "quantity": 1,
+                "comments": "Raynaud's Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Gregory Ritchey",
+            "contact_no": 9133117608
+        },
+        "doctor": {
+            "name": "Dr. Lawrence Thomas",
+            "qualification": "MBBS MD",
+            "specialization": "Dermatology"
+        },
+        "meds": [
+            {
+                "name": "etoposide",
+                "quantity": 2,
+                "comments": "Small Cell Lung Cancer"
+            },
+            {
+                "name": "topotecan",
+                "quantity": 1,
+                "comments": "Small Cell Lung Cancer"
+            },
+            {
+                "name": "methotrexate",
+                "quantity": 2,
+                "comments": "Small Cell Lung Cancer"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Rene Rosales",
+            "contact_no": 9792248749
+        },
+        "doctor": {
+            "name": "Dr. Joann Rippee",
+            "qualification": "MBBS MD",
+            "specialization": "Opthalmology"
+        },
+        "meds": [
+            {
+                "name": "misoprostol",
+                "quantity": 1,
+                "comments": "Abortion"
+            },
+            {
+                "name": "mifepristone",
+                "quantity": 3,
+                "comments": "Abortion"
+            },
+            {
+                "name": "oxytocin",
+                "quantity": 3,
+                "comments": "Abortion"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "David Feinberg",
+            "contact_no": 9964192564
+        },
+        "doctor": {
+            "name": "Dr. Maria Hawkins",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "immune globulin intramuscular",
+                "quantity": 2,
+                "comments": "Rubella"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Marjorie Davis",
+            "contact_no": 9356310132
+        },
+        "doctor": {
+            "name": "Dr. Mary White",
+            "qualification": "MBBS MD",
+            "specialization": "Neurology"
+        },
+        "meds": [
+            {
+                "name": "betamethasone",
+                "quantity": 3,
+                "comments": "Plaque Psoriasis"
+            },
+            {
+                "name": "calcipotriene",
+                "quantity": 3,
+                "comments": "Plaque Psoriasis"
+            },
+            {
+                "name": "apremilast",
+                "quantity": 1,
+                "comments": "Plaque Psoriasis"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Christine Priest",
+            "contact_no": 9308916532
+        },
+        "doctor": {
+            "name": "Dr. Casey Lukow",
+            "qualification": "MBBS MD",
+            "specialization": "Pediatrics"
+        },
+        "meds": [
+            {
+                "name": "modafinil",
+                "quantity": 1,
+                "comments": "Chronic Fatigue Syndrome"
+            },
+            {
+                "name": "duloxetine",
+                "quantity": 2,
+                "comments": "Chronic Fatigue Syndrome"
+            },
+            {
+                "name": "lisdexamfetamine",
+                "quantity": 1,
+                "comments": "Chronic Fatigue Syndrome"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Robert Olofson",
+            "contact_no": 9662486015
+        },
+        "doctor": {
+            "name": "Dr. Delores Davis",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "lamivudine",
+                "quantity": 1,
+                "comments": "HIV Infection"
+            },
+            {
+                "name": "efavirenz / emtricitabine / tenofovir",
+                "quantity": 3,
+                "comments": "HIV Infection"
+            },
+            {
+                "name": "ritonavir",
+                "quantity": 2,
+                "comments": "HIV Infection"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Margie Ascher",
+            "contact_no": 9372580018
+        },
+        "doctor": {
+            "name": "Dr. Joseph Schmuff",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "erythromycin",
+                "quantity": 3,
+                "comments": "Conjunctivitis, Bacterial"
+            },
+            {
+                "name": "tobramycin",
+                "quantity": 3,
+                "comments": "Conjunctivitis, Bacterial"
+            },
+            {
+                "name": "ciprofloxacin",
+                "quantity": 1,
+                "comments": "Conjunctivitis, Bacterial"
+            }
+        ]
+    },
+    {
+        "patient": {
+            "name": "Eric Squires",
+            "contact_no": 9031762183
+        },
+        "doctor": {
+            "name": "Dr. Curtis Abed",
+            "qualification": "MBBS MD",
+            "specialization": "Medical Genetics"
+        },
+        "meds": [
+            {
+                "name": "clotrimazole",
+                "quantity": 1,
+                "comments": "Balanoposthitis"
+            },
+            {
+                "name": "metronidazole",
+                "quantity": 3,
+                "comments": "Balanoposthitis"
+            },
+            {
+                "name": "miconazole",
+                "quantity": 3,
+                "comments": "Balanoposthitis"
+            }
+        ]
+    }
+]

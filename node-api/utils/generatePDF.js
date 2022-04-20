@@ -24,7 +24,7 @@ class PatientDetails {
     }
 }
 
-async function generatePDF(meds, docDetails, patientDetails) {
+async function generatePDF(meds, docDetails, patientDetails, filename = 'output.pdf') {
     var html = fs.readFileSync("prescription_template.html", "utf8");
 
     var options = {
@@ -40,7 +40,7 @@ async function generatePDF(meds, docDetails, patientDetails) {
             docDetails,
             patientDetails
         },
-        path: "./prescriptions/output.pdf",
+        path: `./prescriptions/${filename}`,
         type: "",
     };
 
