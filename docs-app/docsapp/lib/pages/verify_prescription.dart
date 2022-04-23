@@ -145,6 +145,18 @@ class _VerifyPrescriptionPageState extends State<VerifyPrescriptionPage> {
                         const SizedBox(
                           height: 24,
                         ),
+                        Text(
+                          'Upload a Prescription to check validity',
+                          style: TextStyle(
+                            fontFamily: 'Poppins',
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                            color: darkPurple,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Material(
                           borderRadius: BorderRadius.circular(13),
                           color: lightPurple,
