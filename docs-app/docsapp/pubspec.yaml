@@ -40,13 +40,14 @@ dependencies:
   http: ^0.13.4
   shared_preferences: ^2.0.13
   url_launcher: ^6.0.20
+  crypto: ^3.0.1
+  file_picker: ^4.5.1
   intl: ^0.17.0
   transparent_image: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.8.1
 
 flutter_icons:
   ios: true

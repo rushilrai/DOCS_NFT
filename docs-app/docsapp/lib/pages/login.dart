@@ -4,6 +4,7 @@ import 'dart:convert';
 
 import 'package:docsapp/pages/home.dart';
 import 'package:docsapp/pages/signup_basic.dart';
+import 'package:docsapp/pages/verify_prescription.dart';
 import 'package:docsapp/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -564,6 +565,28 @@ class _LoginPageState extends State<LoginPage> {
                                 style: TextStyle(
                                   fontFamily: 'Poppins',
                                   fontSize: 18,
+                                  fontWeight: FontWeight.w600,
+                                  color: lightPurple,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(
+                          height: 5,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            GestureDetector(
+                              onTap: () {
+                                Get.to(const VerifyPrescriptionPage());
+                              },
+                              child: const Text(
+                                'Verify Prescription',
+                                style: TextStyle(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w600,
                                   color: lightPurple,
                                 ),
