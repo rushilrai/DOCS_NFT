@@ -778,6 +778,14 @@ class _PrescribePageState extends State<PrescribePage> {
 void newPrescription(context, userid, docid, List<Meds> meds, password) async {
   showLoadingDialogue(context);
   // ignore: unused_local_variable
+  print({
+    "prescription": {
+      "user_id": userid,
+      "doc_id": docid,
+      "meds": jsonEncode(meds)
+    },
+    "userlogin": {"_id": docid, "password": password}
+  });
   http.Response prescNewResponse = await http.post(
     Uri.parse('http://10.0.2.2:8080/prescription/new'),
     headers: <String, String>{

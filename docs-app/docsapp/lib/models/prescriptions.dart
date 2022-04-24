@@ -22,11 +22,10 @@ class Meds {
 
   Meds.prescr(this.name, this.quantity, this.comment);
 
-  Map toJson() => {
-        '_id': id,
+  Map<String, dynamic> toJson() => {
         'name': name,
         'quantity': quantity,
-        'comment': comment,
+        'comments': comment,
       };
 
   factory Meds.fromJson(Map<String, dynamic> json) {
@@ -34,7 +33,7 @@ class Meds {
       json['_id'],
       json['name'],
       json['quantity'],
-      json['comment'],
+      json['comments'],
     );
   }
 }

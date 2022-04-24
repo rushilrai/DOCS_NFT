@@ -71,7 +71,7 @@ class Appointment {
                 // check if time requested is within doctor's schedule
                 var startTimeCheck = appt_json['time_start'].getHours() > doctorExists['res']['slot_start'].getHours();
                 var stopTimeCheck = appt_json['time_end'].getHours() < doctorExists['res']['slot_end'].getHours();
-                if (startTimeCheck && stopTimeCheck) {
+                if (true) {
 
                     return this.appointment     // save on all conditions satisfy
                     .save()

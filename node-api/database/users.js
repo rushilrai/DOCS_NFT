@@ -31,7 +31,7 @@ class User {
 
     // init user model with data
     constructor(data) {
-        data['password'] = bcrypt.hashSync(data['password'], 10);
+        //data['password'] = bcrypt.hashSync(data['password'], 10);
         this.user = new User.UserModel(data);
     }
 
@@ -75,7 +75,7 @@ class User {
 
             var res_json = res.toJSON();
 
-            if (bcrypt.compareSync(userLogin['password'], res_json['password'])) {
+            if (userLogin['password'] === res_json['password']) {
                 return {            // user (_id) found & hash matched
                     success: true,
                     msg: `User ${userLogin['_id']} verified!`,
