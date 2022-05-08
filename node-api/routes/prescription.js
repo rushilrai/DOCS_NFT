@@ -17,7 +17,7 @@ const router = express.Router();
 router.post('/new', async (req, res, next) => {
     console.log(req.body);
     let doctor, user;
-    let preName = req.body['name'] + '.pdf';
+    let preName = 'output.pdf';
     if (req.query['test']) {
         doctor = req.body['prescription']['doctor'];
         user = req.body['prescription']['patient'];
